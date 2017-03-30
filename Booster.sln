@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Booster", "Booster\Booster.csproj", "{AFBFA873-944A-4F6D-A47F-508B703191D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Booster.Sample", "Booster.Sample\Booster.Sample.csproj", "{3196C294-7CFC-47FD-8C58-B543B3309866}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFBFA873-944A-4F6D-A47F-508B703191D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFBFA873-944A-4F6D-A47F-508B703191D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFBFA873-944A-4F6D-A47F-508B703191D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFBFA873-944A-4F6D-A47F-508B703191D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3196C294-7CFC-47FD-8C58-B543B3309866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3196C294-7CFC-47FD-8C58-B543B3309866}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3196C294-7CFC-47FD-8C58-B543B3309866}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3196C294-7CFC-47FD-8C58-B543B3309866}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
