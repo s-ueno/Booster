@@ -50,11 +50,11 @@ namespace Booster
             public ConstructorHandler Constructor { get; set; }
             public bool IsCompatibleParameters(params object[] args)
             {
-                if (args == null && args.Length == 0)
+                if (args == null || args.Length == 0)
                     return Arguments == null || Arguments.Length == 0;
 
                 if (Arguments == null || Arguments.Length == 0)
-                    return args == null && args.Length == 0;
+                    return args == null || args.Length == 0;
 
                 if (Arguments.Length != args.Length)
                     return false;
